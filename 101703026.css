@@ -201,16 +201,18 @@ font-size: 100%;
 font: inherit;
 vertical-align: baseline;
 }
+
 aside ul li {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #CCC;
+
 }
 aside ul a, aside ul a:visited {
-    
+   
     padding: 10px 0px 10px 10px;
 	display: block; 
-	width: 190px;  
+	width: 189px;  
     text-decoration: none;
 	//background-color: #4EABEC;
 	color: #FFF;
@@ -224,6 +226,7 @@ aside ul a:hover, aside ul a:active, aside ul a:focus {
 	background-color: #ABD8F5;
 }
 li {
+  
 display: list-item;
 text-align: -webkit-match-parent;
 }
