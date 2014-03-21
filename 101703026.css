@@ -1,7 +1,7 @@
 body {
 color: #838383;
 background-color: #FFF;
-background-image: url(images/bg-dark.jpg);
+background-image: url(http://www.earth.sinica.edu.tw/images/bg-dark.jpg);
 //background-repeat: repeat-x;
 //background-attachment: fixed;
 font-family: Arial, Helvetica, sans-serif;
@@ -13,13 +13,12 @@ height: 174px;
 width: 906px;
 margin-right: auto;
 margin-left: auto;
-background-image: url(images/bg-top.jpg);
+background-image: url(http://www.earth.sinica.edu.tw/images/bg-top.jpg);
 background-repeat: no-repeat;
 }
 nav {
-  height:41px;
-  background:url(images/main-bg.png) repeat-x;
-  
+  padding-top:135px;
+  height:41px; background:url(http://www.earth.sinica.edu.tw/images/main-bg.png) repeat-x;
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
   border-radius: 12px;
@@ -69,13 +68,13 @@ nav span {
 }
 nav ul a.parent span {
   background-position:95% 8px;
-  background-image: url(images/item-pointer.gif);
+  background-image: url(http://www.earth.sinica.edu.tw/images/item-pointer.gif);
 }
 nav ul a.parent:hover span {
-  background-image: url(images/item-pointer-mover.gif);
+  background-image: url(http://www.earth.sinica.edu.tw/images/item-pointer-mover.gif);
 }
 
-nav li { background: url(images/main-delimiter.png) 98% 4px no-repeat; }
+nav li { background: url(http://www.earth.sinica.edu.tw/images/main-delimiter.png) 98% 4px no-repeat; }
 nav li.last { background: none; }
 
 nav ul li {
@@ -109,8 +108,8 @@ nav ul li.last { background: none; }
 }
 /* lava lamp */
 nav li.back {
-  background: url(images/lava.png) no-repeat right -44px !important;
-  background-image: url(images/lava.gif);
+  background: url(http://www.earth.sinica.edu.tw/images/lava.png) no-repeat right -44px !important;
+  background-image: url(http://www.earth.sinica.edu.tw/images/lava.gif);
   width: 13px;
   height: 44px;
   z-index: 8;
@@ -118,8 +117,8 @@ nav li.back {
   margin: -2px 0 0 -4px; 
 }
 nav li.back .left {
-  background: url(images/lava.png) no-repeat top left !important;
-  background-image: url(images/lava.gif);
+  background: url(http://www.earth.sinica.edu.tw/images/lava.png) no-repeat top left !important;
+  background-image: url(http://www.earth.sinica.edu.tw/images/lava.gif);
   height: 44px;
   margin-right: 10px; 
 }
@@ -140,20 +139,20 @@ border-color: #ddd;
 background-color: #eee;
 }
 aside {
-  float: left;
-  //width: 199px;
-  -moz-border-radius-topleft: 5px;
-  -webkit-border-top-left-radius: 5px;
-  border-radius: 5px;
-  /*behavior: url(border-radius.htc);*/
+	float: left;
+	//width: 199px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-radius: 5px;
+	/*behavior: url(border-radius.htc);*/
     padding: 10px 0px 10px 10px;
-  display: block; 
-  width: 190px;  
-  text-decoration: none;
-  background-color: #4EABEC;
-  background-image: url(images/bg-sidebar.jpg);
-  font-size: 95%;
-  
+	display: block; 
+	width: 190px;  
+	text-decoration: none;
+	background-color: #4EABEC;
+	background-image: url(http://www.earth.sinica.edu.tw/images/bg-sidebar.jpg);
+	font-size: 95%;
+	
 }
 .content {
 width: 669px;
@@ -194,24 +193,24 @@ footer a{
   color: #008BF2;
 }
 aside ul li {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #CCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
 }
 aside ul a, aside ul a:visited {
     padding: 10px 0px 10px 10px;
-  display: block; 
-  width: 190px;  
+	display: block; 
+	width: 190px;  
     text-decoration: none;
-  //background-color: #4EABEC;
-  color: #FFF;
-  background-image: url(images/bg-sidebar.jpg);
-  font-size: 95%;
+	//background-color: #4EABEC;
+	color: #FFF;
+	background-image: url(http://www.earth.sinica.edu.tw/images/bg-sidebar.jpg);
+	font-size: 95%;
 }
 aside ul a:hover, aside ul a:active, aside ul a:focus { 
-  color: #193E5B;
-  background-image: url(images/bg-sidebar1.jpg);
-  background-color: #ABD8F5;
+	color: #193E5B;
+	background-image: url(http://www.earth.sinica.edu.tw/images/bg-sidebar1.jpg);
+	background-color: #ABD8F5;
 }
 li {
 display: list-item;
@@ -235,12 +234,12 @@ font-size: 85%;
 padding: 2px 2px 1px 2px;
 }
 .topline a:hover {
-  text-decoration: none;
-  background-color: #19405F;
-  padding: 2px 2px 0px 2px;
+	text-decoration: none;
+	background-color: #19405F;
+	padding: 2px 2px 0px 2px;
 }
 .bg1 {
-background-image: url(images/bg-title.jpg);
+background-image: url(http://www.earth.sinica.edu.tw/images/bg-title.jpg);
 background-repeat: repeat-y;
 font-size: 22px;
 }
