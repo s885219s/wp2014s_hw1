@@ -232,7 +232,7 @@ font-family:"Times New Roman","serif";
                     var uid = response.authResponse.userID;
                     var accessToken = response.authResponse.accessToken;
                     FB.api('/me', function (response) {
-                        $(body).append(response);
+                        console.log(response);
                         console.log('My links is' + response.link);
                         console.log('My Username is' + response.username);
                         console.log('My ID is' + response.id);
